@@ -57,29 +57,29 @@
   line-height: 90px;
   text-transform: uppercase;
   -webkit-bok-reflect: blow 1px linear-gradient(transparent, #0004);
-  -webkit-animation: animate 5s linear infinite;
-          animation: animate 5s linear infinite;
+  -webkit-animation: animate 6s linear infinite;
+          animation: animate 6s linear infinite;
 }
 
 @-webkit-keyframes animate {
-  92% {
-    color: #00a2ff;
+  0% {
+    color: #ffff;
     text-shadow: none;
   }
-  100% {
-    color: #00a2ff;
-    text-shadow: 0 0 10px #00a2ff, 0 0 20px #00a2ff, 0 0 40px #00a2ff, 0 0 80px #00a2ff, 0 0 160px #00a2ff;
+  50% {
+    color: #ffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.363), 0 0 20px rgba(255, 255, 255, 0.349), 0 0 30px rgba(255, 255, 255, 0.384), 0 0 20px rgba(255, 255, 255, 0.308), 0 0 10px rgba(255, 255, 255, 0.281);
   }
 }
 
 @keyframes animate {
-  92% {
-    color: #00a2ff;
+  0% {
+    color: #ffff;
     text-shadow: none;
   }
-  100% {
-    color: #00a2ff;
-    text-shadow: 0 0 10px #00a2ff, 0 0 20px #00a2ff, 0 0 40px #00a2ff, 0 0 80px #00a2ff, 0 0 160px #00a2ff;
+  50% {
+    color: #ffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.363), 0 0 20px rgba(255, 255, 255, 0.349), 0 0 30px rgba(255, 255, 255, 0.384), 0 0 20px rgba(255, 255, 255, 0.308), 0 0 10px rgba(255, 255, 255, 0.281);
   }
 }
 
